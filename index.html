@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manasvi Munjani | Flutter Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #cbd5e1;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #38bdf8;
+      color: #0f172a;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #0ea5e9;
+    }
+    a, p {
+      color: #f1f5f9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manasvi Munjani</h1>
+    <p>Flutter Developer | Firebase Expert | UI/UX Focused</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I am  a passionate Flutter developer with 1 year of hands-on experience building modern and responsive mobile apps using Flutter, Firebase, and REST APIs.    </p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="card">Flutter</div>
+      <div class="card">Dart</div>
+      <div class="card">Firebase</div>
+      <div class="card">REST APIs</div>
+      <div class="card">Git & GitHub</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">Java</div>
+      <div class="card">C++</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Furniture App</h3>
+        <p>Dynamic category-based shopping app using Flutter and GetX.</p>
+        <a href="https://github.com/yourusername/furniture-app" target="_blank" class="button">GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Instagram Clone</h3>
+        <p>Clone of Instagram with music widgets, like system & profile uploads.</p>
+        <a href="https://github.com/yourusername/instagram-clone" target="_blank" class="button">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: manasvimunjani@gmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    <a href="Manasvi_Resume.pdf" target="_blank" class="button">Download Resume</a>
+  </section>
+
+  <footer>
+    © 2025 Manasvi Munjani. All rights reserved.
+  </footer>
+</body>
+</html>
