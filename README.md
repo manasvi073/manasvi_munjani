@@ -4,7 +4,7 @@ Welcome to my personal portfolio! I'm a passionate Flutter developer from Surat,
 
 ## 👩‍💻 About Me
 
-- 💼 Currently working as a Flutter Developer (6 months internship + 5 months job)
+- 💼 Currently working as a Flutter Developer
 - 🌱 Learning and improving UI/UX skills & API integrations
 - 🔥 Strong skills in Dart, Firebase, GitHub, JSON, REST APIs
 - 📦 Experienced in building real-time features and mobile app UIs
