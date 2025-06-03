@@ -22,7 +22,6 @@ Welcome to my personal portfolio! I'm a passionate Flutter developer from Surat,
 ## 📫 Connect With Me
 
 - 📧 Email: manasvimunjani07@gmail.com
-- 💼 Fiverr: [Your Fiverr Profile Link]
 - 🌍 Portfolio Website: [Your Website Link]
 
 ---
